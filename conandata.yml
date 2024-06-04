@@ -1,0 +1,20 @@
+project_tag_version: 0.0.1
+name_project: project1
+storage:
+  publication_path: /public/products/all/
+  server: 127.0.0.1
+pkgs:
+  conffiles: null
+  control:
+    Package: project1
+    Version: 0.0.1
+    Section: misc
+    Architecture: all
+    Depends: bash
+    Maintainer: admin <adminbuild@git.com>
+    Description: project1 deb Script
+  dirs: null
+  systemd: project1.service
+  desktop: start_service.desktop
+  app: /opt/
+  user: admin
